@@ -15,11 +15,29 @@
     /* Mobile menu toggle */
     const toggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('.nav-primary');
+    const langSwitch = document.querySelector('.lang-switch');
     if (toggle && nav) {
         toggle.addEventListener('click', () => {
             const open = toggle.classList.toggle('is-open');
             toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
             nav.classList.toggle('nav-primary--mobile', open);
+            document.body.style.overflow = open ? 'hidden' : '';
+            if (langSwitch) {
+                if (open) {
+                    langSwitch.classList.add('mobile-lang');
+                    nav.appendChild(langSwitch);
+                } else {
+                    langSwitch.classList.remove('mobile-lang');
+                    const header = document.querySelector('.site-header__inner');
+                    if (header) header.insertBefore(langSwitch, toggle);
+                }
+            }
+        });
+        /* Close on link click */
+        nav.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A' && nav.classList.contains('nav-primary--mobile')) {
+                toggle.click();
+            }
         });
     }
 
