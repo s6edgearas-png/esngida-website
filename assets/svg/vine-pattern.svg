@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="720" viewBox="0 0 120 720" fill="none">
+  <defs>
+    <symbol id="vp-leaf" viewBox="0 0 100 100">
+      <path d="M50 9 C 47 13 44 21 43 28 C 36 19 26 14 17 18 C 12 21 9 26 9 32 C 9 41 14 50 23 53 C 13 54 5 62 5 72 C 5 82 13 90 23 90 C 19 97 24 106 33 109 C 41 111 49 107 53 99 C 53 107 56 113 50 117 C 44 113 47 107 47 99 C 51 107 59 111 67 109 C 76 106 81 97 77 90 C 87 90 95 82 95 72 C 95 62 87 54 77 53 C 86 50 91 41 91 32 C 91 26 88 21 83 18 C 74 14 64 19 57 28 C 56 21 53 13 50 9 Z"
+        fill="currentColor"/>
+      <path d="M50 25 L50 105 M50 45 L30 65 M50 45 L70 65 M50 75 L36 92 M50 75 L64 92"
+        stroke="rgba(0,0,0,0.20)" stroke-width="1" fill="none" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <g color="#B8924A">
+    <!-- Main vine stem - long sinuous curve, seamless top-to-bottom tile -->
+    <path d="M 30 0 C 55 60 5 130 32 190 C 60 250 8 320 30 380 C 55 440 4 510 32 570 C 58 630 8 690 30 720"
+      stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Tendrils -->
+    <path d="M 32 95 C 20 105 8 115 22 126 C 32 130 38 122 32 116" stroke="currentColor" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+    <path d="M 35 250 C 56 265 72 258 60 244 C 50 234 44 240 49 247" stroke="currentColor" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+    <path d="M 28 410 C 12 425 2 442 18 452 C 30 454 36 446 30 440" stroke="currentColor" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+    <path d="M 35 570 C 56 585 72 578 60 564 C 50 554 44 560 49 567" stroke="currentColor" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+
+    <!-- Leaves at irregular intervals, varied rotation/size -->
+    <use href="#vp-leaf" x="40" y="40" width="32" height="32" transform="rotate(20 56 56)"/>
+    <use href="#vp-leaf" x="-4" y="180" width="36" height="36" transform="rotate(-30 14 198)"/>
+    <use href="#vp-leaf" x="44" y="320" width="30" height="30" transform="rotate(35 59 335)"/>
+    <use href="#vp-leaf" x="-2" y="470" width="34" height="34" transform="rotate(-22 15 487)"/>
+    <use href="#vp-leaf" x="42" y="600" width="32" height="32" transform="rotate(18 58 616)"/>
+
+    <!-- Small grape cluster motifs (3 dots in triangle) -->
+    <g fill="currentColor">
+      <circle cx="16" cy="135" r="2.2"/>
+      <circle cx="22" cy="140" r="2.2"/>
+      <circle cx="19" cy="145" r="2.2"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="74" cy="295" r="2.2"/>
+      <circle cx="80" cy="300" r="2.2"/>
+      <circle cx="77" cy="305" r="2.2"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="14" cy="455" r="2.2"/>
+      <circle cx="20" cy="460" r="2.2"/>
+      <circle cx="17" cy="465" r="2.2"/>
+    </g>
+  </g>
+</svg>
