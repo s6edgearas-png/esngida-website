@@ -1,0 +1,23 @@
+# Hassas bilgiler içerir (FTP/cPanel şifreleri) — GitHub'a yüklenmemeli
+TECH_SPECS.md
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editör
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Geçici
+*.log
+*.tmp
+node_modules/
+
+# Yedek logo klasörü (orijinal Türkçe karakterli)
+İmages/

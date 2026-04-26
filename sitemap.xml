@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ========== TR (default) ========== -->
+  <url>
+    <loc>https://esngida.com.tr/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://esngida.com.tr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://esngida.com.tr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://esngida.com.tr/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://esngida.com.tr/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://esngida.com.tr/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://esngida.com.tr/hakkimizda.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/urunlerimiz.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/fason-uretim.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/ihracat.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/fabrikamiz.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/sertifikalar.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/iletisim.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/bayi-basvuru.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ========== EN ========== -->
+  <url>
+    <loc>https://esngida.com.tr/en/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://esngida.com.tr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://esngida.com.tr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://esngida.com.tr/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://esngida.com.tr/ar/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://esngida.com.tr/en/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/en/products.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/en/private-label.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/en/export.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/en/factory.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/en/certificates.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/en/contact.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/en/dealer-application.html</loc><priority>0.8</priority></url>
+
+  <!-- ========== DE ========== -->
+  <url>
+    <loc>https://esngida.com.tr/de/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://esngida.com.tr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://esngida.com.tr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://esngida.com.tr/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://esngida.com.tr/ar/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://esngida.com.tr/de/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/de/products.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/de/private-label.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/de/export.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/de/factory.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/de/certificates.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/de/contact.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/de/dealer-application.html</loc><priority>0.8</priority></url>
+
+  <!-- ========== AR ========== -->
+  <url>
+    <loc>https://esngida.com.tr/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://esngida.com.tr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://esngida.com.tr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://esngida.com.tr/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://esngida.com.tr/ar/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://esngida.com.tr/ar/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/ar/products.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/ar/private-label.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/ar/export.html</loc><priority>0.9</priority></url>
+  <url><loc>https://esngida.com.tr/ar/factory.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/ar/certificates.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/ar/contact.html</loc><priority>0.7</priority></url>
+  <url><loc>https://esngida.com.tr/ar/dealer-application.html</loc><priority>0.8</priority></url>
+
+</urlset>

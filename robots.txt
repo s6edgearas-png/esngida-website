@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://esngida.com.tr/sitemap.xml
