@@ -292,29 +292,7 @@
 <section class="section export">
     <div class="container export__grid">
         <div class="export__map" data-reveal>
-            <svg viewBox="0 0 1000 500" aria-hidden="true">
-                <g stroke="rgba(184, 146, 74, 0.06)" stroke-width="0.5"><line x1="0" y1="125" x2="1000" y2="125"/><line x1="0" y1="250" x2="1000" y2="250"/><line x1="0" y1="375" x2="1000" y2="375"/><line x1="250" y1="0" x2="250" y2="500"/><line x1="500" y1="0" x2="500" y2="500"/><line x1="750" y1="0" x2="750" y2="500"/></g>
-                <g fill="#E3D9C5" stroke="#D5C7AA" stroke-width="0.5">
-                    <path d="M70 110 L 200 90 L 230 130 L 260 150 L 240 200 L 200 230 L 150 240 L 110 220 L 80 190 L 60 150 Z"/>
-                    <path d="M230 270 L 270 260 L 290 290 L 285 350 L 260 400 L 240 420 L 220 410 L 210 360 L 215 320 Z"/>
-                    <path d="M460 110 L 520 100 L 560 110 L 580 130 L 575 160 L 540 175 L 500 170 L 470 155 L 455 140 Z"/>
-                    <path d="M490 200 L 560 195 L 590 230 L 600 290 L 580 340 L 555 370 L 525 360 L 500 320 L 485 270 L 480 230 Z"/>
-                    <path d="M580 100 L 720 90 L 820 110 L 850 150 L 820 200 L 780 220 L 720 215 L 660 200 L 610 175 L 590 145 Z"/>
-                    <path d="M790 320 L 870 310 L 900 330 L 890 365 L 850 380 L 810 370 L 790 350 Z"/>
-                </g>
-                <g class="markers active">
-                    <circle cx="510" cy="135" r="7" fill="#1F3A0E"/>
-                    <circle cx="510" cy="135" r="13" fill="none" stroke="#1F3A0E" stroke-width="1" opacity="0.4"><animate attributeName="r" values="13;22;13" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/></circle>
-                    <circle cx="498" cy="128" r="5" fill="#1F3A0E"/><circle cx="510" cy="118" r="5" fill="#1F3A0E"/><circle cx="488" cy="142" r="5" fill="#1F3A0E"/><circle cx="475" cy="125" r="5" fill="#1F3A0E"/><circle cx="510" cy="160" r="5" fill="#1F3A0E"/>
-                    <circle cx="170" cy="170" r="7" fill="#1F3A0E"/><circle cx="170" cy="120" r="5" fill="#1F3A0E"/><circle cx="850" cy="345" r="7" fill="#1F3A0E"/>
-                </g>
-                <g class="markers target">
-                    <circle cx="610" cy="220" r="6" fill="#B8924A"/>
-                    <circle cx="640" cy="225" r="5" fill="#B8924A"/><circle cx="700" cy="100" r="6" fill="#B8924A"/><circle cx="700" cy="135" r="5" fill="#B8924A"/>
-                    <circle cx="555" cy="155" r="9" fill="#B8924A"/><circle cx="555" cy="155" r="9" fill="none" stroke="#B8924A" stroke-width="1.5"/>
-                </g>
-                <text x="555" y="180" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#1F3A0E" letter-spacing="2" font-weight="600">SİVAS · TR</text>
-            </svg>
+            <div data-world-map></div>
             <div class="export__legend"><div><span class="legend__dot legend__dot--active"></span>Aktive Exportmärkte</div><div><span class="legend__dot legend__dot--target"></span>Zielmärkte</div></div>
         </div>
         <div class="export__content" data-reveal>
@@ -397,5 +375,6 @@
 
 <a href="https://wa.me/905376135729" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp"><svg><use href="#wa"/></svg></a>
 <script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/world-map.js" defer></script>
 </body>
 </html>

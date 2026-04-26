@@ -899,6 +899,68 @@ h3.display { font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.2; }
     font-size: 1.05rem;
 }
 
+/* ---------- Interactive World Map ---------- */
+.world-map-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: default;
+}
+.world-map-svg .wm-continents path {
+    transition: fill 0.4s ease;
+}
+.world-map-svg .wm-point {
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(.2,.7,.2,1);
+    transform-origin: center;
+    transform-box: fill-box;
+}
+.world-map-svg .wm-point circle {
+    transition: r 0.3s ease;
+}
+.world-map-svg .wm-point--active circle {
+    fill: #1F3A0E;
+}
+.world-map-svg .wm-point--target circle {
+    fill: #B8924A;
+}
+.world-map-svg .wm-point:hover {
+    transform: scale(1.4);
+}
+.world-map-svg .wm-tooltip {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.25s cubic-bezier(.2,.7,.2,1);
+    transform-origin: center bottom;
+}
+.world-map-svg .wm-tooltip rect {
+    fill: #1F3A0E;
+    filter: drop-shadow(0 4px 10px rgba(31, 58, 14, 0.25));
+}
+.world-map-svg .wm-tooltip text {
+    fill: #FBF8F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+.world-map-svg .wm-point:hover .wm-tooltip,
+.world-map-svg .wm-point:focus .wm-tooltip {
+    opacity: 1;
+}
+.world-map-svg .wm-point:focus { outline: none; }
+.world-map-svg .wm-point:focus circle {
+    stroke: #B8924A;
+    stroke-width: 2;
+}
+
+/* Subtle continent hover dim — visual depth */
+.world-map-svg:hover .wm-continents path {
+    fill: #DDD0AE;
+}
+
 /* ---------- Brands ---------- */
 .brands {
     border-top: 1px solid var(--color-line);
