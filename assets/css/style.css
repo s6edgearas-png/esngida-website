@@ -216,21 +216,21 @@ h3.display { font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.2; }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 104px;
+    height: 140px;
 }
-.site-header.shrink .site-header__inner { height: 78px; }
+.site-header.shrink .site-header__inner { height: 96px; }
 
 .brand-mark {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 20px;
 }
 .brand-mark img {
-    height: 84px;
+    height: 120px;
     width: auto;
     transition: height 0.3s ease;
 }
-.site-header.shrink .brand-mark img { height: 64px; }
+.site-header.shrink .brand-mark img { height: 80px; }
 .brand-mark__text {
     font-family: var(--font-serif);
     font-size: 0.95rem;
@@ -1689,7 +1689,7 @@ h3.display { font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.2; }
         flex-direction: column;
         gap: 0;
         position: fixed;
-        top: 104px;
+        top: 140px;
         left: 0;
         right: 0;
         bottom: 0;
