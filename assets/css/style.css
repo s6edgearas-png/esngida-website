@@ -432,15 +432,6 @@ h3.display { font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.2; }
     z-index: 1;
     display: block;
 }
-.hero__visual-overlay {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    background:
-        linear-gradient(180deg, rgba(31,58,14,0.18) 0%, rgba(31,58,14,0.55) 100%),
-        linear-gradient(135deg, rgba(45,80,22,0.22) 0%, rgba(31,58,14,0.0) 60%);
-    pointer-events: none;
-}
 .hero__visual-tag {
     position: absolute;
     bottom: 36px;
