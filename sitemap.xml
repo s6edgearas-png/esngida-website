@@ -21,6 +21,8 @@
   <url><loc>https://esngida.com.tr/sertifikalar.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/iletisim.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/bayi-basvuru.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/kvkk.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://esngida.com.tr/cerez-politikasi.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 
   <!-- ========== EN ========== -->
   <url>
@@ -40,6 +42,8 @@
   <url><loc>https://esngida.com.tr/en/certificates.html</loc><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/en/contact.html</loc><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/en/dealer-application.html</loc><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/en/privacy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://esngida.com.tr/en/cookies.html</loc><priority>0.3</priority></url>
 
   <!-- ========== DE ========== -->
   <url>
@@ -59,6 +63,8 @@
   <url><loc>https://esngida.com.tr/de/certificates.html</loc><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/de/contact.html</loc><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/de/dealer-application.html</loc><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/de/datenschutz.html</loc><priority>0.3</priority></url>
+  <url><loc>https://esngida.com.tr/de/cookies.html</loc><priority>0.3</priority></url>
 
   <!-- ========== AR ========== -->
   <url>
@@ -78,5 +84,7 @@
   <url><loc>https://esngida.com.tr/ar/certificates.html</loc><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/ar/contact.html</loc><priority>0.7</priority></url>
   <url><loc>https://esngida.com.tr/ar/dealer-application.html</loc><priority>0.8</priority></url>
+  <url><loc>https://esngida.com.tr/ar/privacy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://esngida.com.tr/ar/cookies.html</loc><priority>0.3</priority></url>
 
 </urlset>

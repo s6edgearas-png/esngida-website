@@ -60,6 +60,9 @@
     /* Number counter */
     const counters = document.querySelectorAll('[data-count]');
     if ('IntersectionObserver' in window && counters.length) {
+        const localeMap = { tr: 'tr-TR', en: 'en-US', de: 'de-DE', ar: 'ar-SA' };
+        const pageLang = (document.documentElement.lang || 'tr').slice(0, 2);
+        const numberLocale = localeMap[pageLang] || 'tr-TR';
         const animate = (el) => {
             const target = parseFloat(el.getAttribute('data-count'));
             const decimals = (el.getAttribute('data-decimals') || '0') | 0;
@@ -72,7 +75,7 @@
                 const value = initial + (target - initial) * eased;
                 el.textContent = decimals
                     ? value.toFixed(decimals)
-                    : Math.round(value).toLocaleString('tr-TR');
+                    : Math.round(value).toLocaleString(numberLocale);
                 if (t < 1) requestAnimationFrame(tick);
             };
             requestAnimationFrame(tick);

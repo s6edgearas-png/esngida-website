@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,22 @@
     <title>Über Uns — ESN Gıda &amp; Konserve | Seit 2018</title>
     <meta name="description" content="Über ESN Gıda &amp; Konserve. Gegründet 2018 in Sivas, Türkei. 17 Mitarbeiter, 10.000 m² Anlage, 2.800 kg Tagesproduktion. Mission, Vision, Unternehmenswerte.">
     <link rel="canonical" href="https://esngida.com.tr/de/about.html">
+    <link rel="alternate" hreflang="tr" href="https://esngida.com.tr/hakkimizda.html">
+    <link rel="alternate" hreflang="en" href="https://esngida.com.tr/en/about.html">
+    <link rel="alternate" hreflang="de" href="https://esngida.com.tr/de/about.html">
+    <link rel="alternate" hreflang="ar" href="https://esngida.com.tr/ar/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://esngida.com.tr/hakkimizda.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Über Uns — ESN Gıda &amp; Konserve | Seit 2018">
+    <meta property="og:description" content="Über ESN Gıda &amp; Konserve. Gegründet 2018 in Sivas, Türkei. 17 Mitarbeiter, 10.000 m² Anlage, 2.800 kg Tagesproduktion. Mission, Vision, Unternehmenswerte.">
+    <meta property="og:url" content="https://esngida.com.tr/de/about.html">
+    <meta property="og:image" content="https://esngida.com.tr/assets/images/fabrika-giris.jpg">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="ESN Gıda &amp; Konserve">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Über Uns — ESN Gıda &amp; Konserve | Seit 2018">
+    <meta name="twitter:description" content="Über ESN Gıda &amp; Konserve. Gegründet 2018 in Sivas, Türkei. 17 Mitarbeiter, 10.000 m² Anlage, 2.800 kg Tagesproduktion. Mission, Vision, Unternehmenswerte.">
+    <meta name="twitter:image" content="https://esngida.com.tr/assets/images/fabrika-giris.jpg">
     <link rel="icon" type="image/png" href="../assets/images/esn-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +38,8 @@
 
 <header class="site-header" role="banner">
     <div class="container site-header__inner">
-        <a href="index.html" class="brand-mark"><img src="../assets/images/esn-logo.png" alt="ESN Gıda"><span class="brand-mark__text">ESN Gıda<span>Konserve &amp; Export</span></span></a>
-        <nav class="nav-primary">
+        <a href="index.html" class="brand-mark" aria-label="ESN Gıda Startseite"><img src="../assets/images/esn-logo.png" alt="ESN Gıda"><span class="brand-mark__text">ESN Gıda<span>Konserve &amp; Export</span></span></a>
+        <nav class="nav-primary" aria-label="Hauptmenü">
             <a href="index.html">Startseite</a>
             <a href="about.html" class="is-active">Über Uns</a>
             <a href="products.html">Produkte</a>
@@ -31,8 +47,9 @@
             <a href="export.html">Export</a>
             <a href="certificates.html">Zertifikate</a>
             <a href="contact.html">Kontakt</a>
+            <a href="dealer-application.html">Händler Werden</a>
         </nav>
-        <div class="lang-switch">
+        <div class="lang-switch" aria-label="Sprache">
             <a href="../hakkimizda.html">TR</a>
             <a href="../en/about.html">EN</a>
             <a href="about.html" class="active">DE</a>
@@ -47,7 +64,7 @@
 <section class="page-hero">
     <div class="container page-hero__inner">
         <div data-reveal>
-            <nav class="breadcrumb"><a href="index.html">Startseite</a><span>/</span><a href="about.html">Über Uns</a></nav>
+            <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Startseite</a><span>/</span><a href="about.html">Über Uns</a></nav>
             <h1 class="display page-hero__title">Ein Erbe, vom Weinberg <em>auf den Tisch</em> getragen.</h1>
             <p class="lede page-hero__lede">ESN Gıda &amp; Konserve ist ein exportorientiertes Lebensmittelunternehmen, das die gesamte Wertschöpfungskette — von der Produktion eingelegter Weinblätter über die Verpackung bis hin zum internationalen Versand — unter einem Dach betreibt.</p>
         </div>
@@ -113,6 +130,7 @@
                    controls
                    preload="metadata"
                    playsinline
+                   poster="../assets/images/fabrika-poster.jpg"
                    aria-label="ESN Gıda Werksvideo">
                 <source src="../assets/videos/fabrika.mp4" type="video/mp4">
                 Ihr Browser unterstützt keine Videowiedergabe.
@@ -173,7 +191,7 @@
 
 </main>
 
-<footer class="site-footer">
+<footer class="site-footer" role="contentinfo">
     <div class="container">
         <div class="footer__top">
             <div class="footer__brand"><img src="../assets/images/esn-logo.png" alt="ESN Gıda"><p>Der zeitlose Geschmack Anatoliens. Hersteller eingelegter Weinblätter aus Sivas, Türkei — Export- und Eigenmarkenpartner.</p></div>
@@ -181,7 +199,7 @@
             <div class="footer__col"><h5>Kontakt</h5><ul><li><a href="mailto:info@esngida.com.tr">info@esngida.com.tr</a></li><li><a href="mailto:export@esngida.com.tr">export@esngida.com.tr</a></li><li><a href="tel:+905376135729">+90 537 613 57 29</a></li><li><a href="dealer-application.html">Händlerantrag</a></li></ul></div>
             <div class="footer__col"><h5>Adresse</h5><address>Ahmetturangazi OIZ<br>OIZ 18. Straße Nr.: 29<br>Sivas / Türkei</address></div>
         </div>
-        <div class="footer__bottom"><div>© <span data-year>2026</span> ESN Gıda &amp; Konserve. Alle Rechte vorbehalten.</div><div class="footer__legal"><a href="#">Datenschutz</a><a href="#">Cookies</a></div></div>
+        <div class="footer__bottom"><div>© <span data-year>2026</span> ESN Gıda &amp; Konserve. Alle Rechte vorbehalten.</div><div class="footer__legal"><a href="datenschutz.html">Datenschutz</a><a href="cookies.html">Cookies</a></div></div>
     </div>
 </footer>
 

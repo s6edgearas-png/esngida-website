@@ -21,3 +21,4 @@ node_modules/
 
 # Yedek logo klasörü (orijinal Türkçe karakterli)
 İmages/
+.netlify/
