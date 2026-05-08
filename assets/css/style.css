@@ -1002,8 +1002,11 @@ h3.display { font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.2; }
 .brands__head { text-align: center; margin-bottom: 56px; }
 .brands__grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+}
+@media (max-width: 960px) {
+    .brands__grid { grid-template-columns: 1fr; }
 }
 .brand-card {
     padding: 56px 48px;
