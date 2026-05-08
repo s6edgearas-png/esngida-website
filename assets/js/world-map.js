@@ -9,33 +9,49 @@
     var L = {
         tr: {
             origin: 'SİVAS · TÜRKİYE',
+            europeAll: 'AVRUPA — Tüm Ülkeler',
             countries: {
                 de: 'Almanya', nl: 'Hollanda', dk: 'Danimarka', uk: 'İngiltere',
-                fr: 'Fransa', it: 'İtalya', us: 'ABD', ca: 'Kanada', au: 'Avustralya',
+                fr: 'Fransa', it: 'İtalya', es: 'İspanya', ie: 'İrlanda',
+                be: 'Belçika', se: 'İsveç', no: 'Norveç', fi: 'Finlandiya',
+                pl: 'Polonya', at: 'Avusturya', hu: 'Macaristan', gr: 'Yunanistan',
+                us: 'ABD', ca: 'Kanada', au: 'Avustralya',
                 sa: 'Suudi Arabistan', ae: 'BAE', ru: 'Rusya', kz: 'Kazakistan'
             }
         },
         en: {
             origin: 'SIVAS · TÜRKİYE',
+            europeAll: 'EUROPE — All Countries',
             countries: {
                 de: 'Germany', nl: 'Netherlands', dk: 'Denmark', uk: 'United Kingdom',
-                fr: 'France', it: 'Italy', us: 'USA', ca: 'Canada', au: 'Australia',
+                fr: 'France', it: 'Italy', es: 'Spain', ie: 'Ireland',
+                be: 'Belgium', se: 'Sweden', no: 'Norway', fi: 'Finland',
+                pl: 'Poland', at: 'Austria', hu: 'Hungary', gr: 'Greece',
+                us: 'USA', ca: 'Canada', au: 'Australia',
                 sa: 'Saudi Arabia', ae: 'UAE', ru: 'Russia', kz: 'Kazakhstan'
             }
         },
         de: {
             origin: 'SIVAS · TÜRKEI',
+            europeAll: 'EUROPA — Alle Länder',
             countries: {
                 de: 'Deutschland', nl: 'Niederlande', dk: 'Dänemark', uk: 'Großbritannien',
-                fr: 'Frankreich', it: 'Italien', us: 'USA', ca: 'Kanada', au: 'Australien',
+                fr: 'Frankreich', it: 'Italien', es: 'Spanien', ie: 'Irland',
+                be: 'Belgien', se: 'Schweden', no: 'Norwegen', fi: 'Finnland',
+                pl: 'Polen', at: 'Österreich', hu: 'Ungarn', gr: 'Griechenland',
+                us: 'USA', ca: 'Kanada', au: 'Australien',
                 sa: 'Saudi-Arabien', ae: 'VAE', ru: 'Russland', kz: 'Kasachstan'
             }
         },
         ar: {
             origin: 'سيواس · تركيا',
+            europeAll: 'أوروبا — جميع الدول',
             countries: {
                 de: 'ألمانيا', nl: 'هولندا', dk: 'الدنمارك', uk: 'بريطانيا',
-                fr: 'فرنسا', it: 'إيطاليا', us: 'الولايات المتحدة', ca: 'كندا', au: 'أستراليا',
+                fr: 'فرنسا', it: 'إيطاليا', es: 'إسبانيا', ie: 'أيرلندا',
+                be: 'بلجيكا', se: 'السويد', no: 'النرويج', fi: 'فنلندا',
+                pl: 'بولندا', at: 'النمسا', hu: 'المجر', gr: 'اليونان',
+                us: 'الولايات المتحدة', ca: 'كندا', au: 'أستراليا',
                 sa: 'السعودية', ae: 'الإمارات', ru: 'روسيا', kz: 'كازاخستان'
             }
         }
@@ -103,17 +119,37 @@
         '</path>' +
     '</g>' +
 
+    /* Europe-all halo (subtle highlight for full EU coverage) */
+    '<g class="wm-region">' +
+        '<ellipse cx="510" cy="130" rx="60" ry="48" fill="rgba(31, 58, 14, 0.06)" stroke="rgba(31, 58, 14, 0.18)" stroke-width="0.8" stroke-dasharray="2 3"/>' +
+        '<text x="510" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#1F3A0E" letter-spacing="1.5" font-weight="600">' + t.europeAll + '</text>' +
+    '</g>' +
+
     /* Country pins */
     '<g class="wm-points">' +
-        point('wm-point--active', 510, 135, 6, c.de, 518, 70) +
+        /* Major EU customers (larger) */
+        point('wm-point--active wm-point--major', 510, 135, 8, c.de, 518, 70) +
+        point('wm-point--active', 488, 142, 6, c.fr, 410, 65) +
         point('wm-point--active', 498, 122, 5, c.nl, 506, 78) +
         point('wm-point--active', 513, 110, 5, c.dk, 521, 80) +
         point('wm-point--active', 478, 118, 5, c.uk, 410, 92) +
-        point('wm-point--active', 488, 142, 5, c.fr, 410, 65) +
         point('wm-point--active', 528, 155, 5, c.it, 536, 55) +
+        /* Additional EU countries */
+        point('wm-point--active wm-point--minor', 470, 162, 4, c.es, 410, 60) +
+        point('wm-point--active wm-point--minor', 462, 122, 4, c.ie, 400, 56) +
+        point('wm-point--active wm-point--minor', 495, 132, 4, c.be, 430, 56) +
+        point('wm-point--active wm-point--minor', 522, 95, 4, c.se, 530, 56) +
+        point('wm-point--active wm-point--minor', 505, 92, 4, c.no, 442, 56) +
+        point('wm-point--active wm-point--minor', 544, 90, 4, c.fi, 552, 64) +
+        point('wm-point--active wm-point--minor', 533, 130, 4, c.pl, 541, 56) +
+        point('wm-point--active wm-point--minor', 515, 148, 4, c.at, 451, 64) +
+        point('wm-point--active wm-point--minor', 537, 144, 4, c.hu, 545, 64) +
+        point('wm-point--active wm-point--minor', 547, 170, 4, c.gr, 555, 70) +
+        /* North America + Pacific */
         point('wm-point--active', 170, 170, 7, c.us, 178, 50) +
         point('wm-point--active', 200, 125, 5, c.ca, 208, 65) +
         point('wm-point--active', 855, 345, 7, c.au, 770, 80) +
+        /* Target / expansion markets */
         point('wm-point--target', 615, 215, 5, c.sa, 623, 110) +
         point('wm-point--target', 640, 222, 5, c.ae, 648, 50) +
         point('wm-point--target', 700, 100, 6, c.ru, 708, 65) +
